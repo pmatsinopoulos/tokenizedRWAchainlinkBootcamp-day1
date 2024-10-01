@@ -5,6 +5,7 @@
   "author": "Panos Matsinopoulos <panos@mixlr.com>",
   "license": "MIT",
   "devDependencies": {
+    "@chainlink/contracts": "^1.2.0",
     "@chainlink/contracts-ccip": "^1.4.0",
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
     "@nomicfoundation/hardhat-ethers": "^3.0.0",
