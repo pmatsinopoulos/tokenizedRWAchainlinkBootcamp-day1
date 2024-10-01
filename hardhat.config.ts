@@ -3,7 +3,7 @@ envEnc.config();
 
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
-import { INFURA_API_KEY, PRIVATE_KEY } from "./constants";
+import { ETHERSCAN_API_KEY, INFURA_API_KEY, PRIVATE_KEY } from "./constants";
 
 const config: HardhatUserConfig = {
   solidity: {
@@ -29,6 +29,9 @@ const config: HardhatUserConfig = {
         routerAddress: "0xA9d587a00A31A52Ed70D6026794a8FC5E2F5dCb0",
       },
     },
+  },
+  etherscan: {
+    apiKey: ETHERSCAN_API_KEY,
   },
 };
 
