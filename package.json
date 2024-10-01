@@ -1,0 +1,7 @@
+{
+  "name": "tokenizeRWAchainlinkBootcamp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Panos Matsinopoulos <panos@mixlr.com>",
+  "license": "MIT"
+}
