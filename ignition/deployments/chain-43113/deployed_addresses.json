@@ -1,3 +1,4 @@
 {
-  "RealEstateTokenModule#RealEstateToken": "0xE38907398630129D30cBD0201ADD8a49eB890bBC"
+  "RealEstateTokenModule#RealEstateToken": "0xE38907398630129D30cBD0201ADD8a49eB890bBC",
+  "IssuerModule#Issuer": "0x71F97268C0Ed761d93d1253b7540bb350c2F9a1E"
 }

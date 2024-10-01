@@ -28,6 +28,7 @@ const config: HardhatUserConfig = {
       chainLinkFunctions: {
         routerAddress: "0xA9d587a00A31A52Ed70D6026794a8FC5E2F5dCb0",
       },
+      chainId: 43113,
     },
   },
   etherscan: {
