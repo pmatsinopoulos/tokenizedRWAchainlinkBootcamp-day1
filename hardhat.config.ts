@@ -30,9 +30,32 @@ const config: HardhatUserConfig = {
       },
       chainId: 43113,
     },
+    baseSepolia: {
+      url: `https://base-sepolia.infura.io/v3/${INFURA_API_KEY}`,
+      accounts: [PRIVATE_KEY],
+      ccip: {
+        routerAddress: "0xD3b06cEbF099CE7DA4AcCf578aaebFDBd6e88a93",
+        linkTokenAddress: "0xE4aB69C077896252FAFBD49EFD26B5D171A32410",
+        chainSelector: "10344971235874465080",
+      },
+      chainLinkFunctions: {
+        routerAddress: "0xf9B8fc078197181C841c296C876945aaa425B278",
+      },
+      chainId: 84532,
+    },
   },
   etherscan: {
     apiKey: ETHERSCAN_API_KEY,
+    customChains: [
+      {
+        network: "baseSepolia",
+        chainId: 84532,
+        urls: {
+          apiURL: "https://api-sepolia.etherscan.io/api",
+          browserURL: "https://sepolia.basescan.org",
+        },
+      },
+    ],
   },
 };
 
